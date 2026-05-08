@@ -1,0 +1,1 @@
+- [安装Skill和下载资源前检查恶意代码](feedback_security_check.md) — 安装skill或下载任何外部资源时必须在安装前检查是否有恶意代码

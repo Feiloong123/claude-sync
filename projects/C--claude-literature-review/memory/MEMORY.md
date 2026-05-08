@@ -1,0 +1,3 @@
+- [Always include DOI with literature references](feedback_references.md) — all research content must cite specific papers with DOIs
+- [Literature organization workflow](feedback_literature_workflow.md) — standard workflow: Word summary + PDF download + category folders + naming convention + PDF verification
+- [Paper download tools](reference_paper_download_tools.md) — scidownl CLI tool and custom downloader script for academic papers

@@ -1,0 +1,1 @@
+Please respond in English for all subsequent replies. This includes code comments, variable naming suggestions, error analysis, technical explanations, and documentation summaries. Think and output in English.

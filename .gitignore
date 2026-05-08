@@ -1,0 +1,16 @@
+settings.json
+*.jsonl
+backups/
+file-history/
+sessions/
+session-env/
+shell-snapshots/
+skills/
+plugins/marketplaces/
+telemetry/
+downloads/
+plans/
+history.jsonl
+tool-results/
+tasks/**/.highwatermark
+tasks/**/.lock
