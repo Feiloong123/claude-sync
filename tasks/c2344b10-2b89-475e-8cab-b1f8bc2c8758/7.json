@@ -1,9 +1,0 @@
-{
-  "id": "7",
-  "subject": "Download all PDFs and verify validity",
-  "description": "下载所有引用文献的PDF，按分类存放，验证有效性",
-  "activeForm": "下载并验证所有PDF",
-  "status": "in_progress",
-  "blocks": [],
-  "blockedBy": []
-}

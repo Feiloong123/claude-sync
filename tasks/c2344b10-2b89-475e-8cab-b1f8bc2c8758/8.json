@@ -1,9 +1,0 @@
-{
-  "id": "8",
-  "subject": "Retrieve full bibliographic info and DOIs for all identified papers",
-  "description": "检索前序搜索中发现的8-10篇核心文献的准确DOI、作者全名、卷期页码等完整信息",
-  "activeForm": "检索核心文献DOI",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}
