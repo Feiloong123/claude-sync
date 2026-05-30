@@ -1,0 +1,16 @@
+[pubmed]
+email = "yangchangheng23@mails.ucas.ac.cn"  # Set your PubMed email here or via PUBMED_EMAIL env var
+api_key = ""
+cache_dir = "~/.cache/academic-search"
+cache_ttl = 86400
+
+[crossref]
+mailto = "yangchangheng23@mails.ucas.ac.cn"
+timeout = 15
+
+[arxiv]
+timeout = 30
+
+[general]
+default_rows = 5
+max_rows = 50

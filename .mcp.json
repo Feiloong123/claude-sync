@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "academic-search": {
+      "command": "python",
+      "args": ["C:/Users/YYY/.claude/mcp_servers/academic-search/academic_search_server.py"],
+      "env": {
+        "PUBMED_EMAIL": "yangchangheng23@mails.ucas.ac.cn"
+      }
+    }
+  }
+}
