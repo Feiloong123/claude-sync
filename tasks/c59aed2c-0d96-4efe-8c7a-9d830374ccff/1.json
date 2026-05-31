@@ -1,9 +1,0 @@
-{
-  "id": "1",
-  "subject": "检查环境并安装 UI-TARS / Agent TARS",
-  "description": "1. 检查 Node.js 版本、Git 状态 2. 尝试 npx @agent-tars/cli@latest 看看启动界面 3. 确认可用的 provider 列表",
-  "activeForm": "安装并检查 UI-TARS",
-  "status": "in_progress",
-  "blocks": [],
-  "blockedBy": []
-}
