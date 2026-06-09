@@ -1,9 +1,0 @@
-{
-  "id": "4",
-  "subject": "Step 5: Quality check and finalize",
-  "description": "Verify data consistency, check for duplicates, validate values, save final Excel",
-  "activeForm": "Running quality checks",
-  "status": "pending",
-  "blocks": [],
-  "blockedBy": []
-}

@@ -1,9 +1,0 @@
-{
-  "id": "5",
-  "subject": "Step 2: Deduplicate and filter results by journal/year",
-  "description": "Merge search results, deduplicate by DOI/title, filter to target journals and 2023-2026",
-  "activeForm": "Deduplicating and filtering papers",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}

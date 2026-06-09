@@ -1,9 +1,0 @@
-{
-  "id": "1",
-  "subject": "Step 3: Extract detailed data from each paper",
-  "description": "For each paper, fetch details and extract: catalyst name, overpotential, stability, ECSA, TOF, ICP, ADT-CV, mechanism",
-  "activeForm": "Extracting paper data",
-  "status": "in_progress",
-  "blocks": [],
-  "blockedBy": []
-}
