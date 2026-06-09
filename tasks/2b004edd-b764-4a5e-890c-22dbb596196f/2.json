@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Step 4: Generate Excel file with all data",
+  "description": "Create formatted Excel with openpyxl following the template from create_her_data_part1.py",
+  "activeForm": "Generating Excel output",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

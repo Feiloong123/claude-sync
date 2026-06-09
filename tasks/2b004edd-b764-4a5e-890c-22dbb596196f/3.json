@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Step 1: Multi-source literature search for RuO2 acidic OER papers",
+  "description": "Search PubMed, CrossRef, arXiv via MCP + WebSearch for RuO2-based acidic OER papers 2023-2026 in target journals",
+  "activeForm": "Searching literature databases",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}
