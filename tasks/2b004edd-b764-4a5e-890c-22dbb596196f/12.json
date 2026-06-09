@@ -1,9 +1,0 @@
-{
-  "id": "12",
-  "subject": "Batch extract full text from all 241 RuO2 papers",
-  "description": "Extract complete text from all 241 confirmed RuO2 papers to text files for agent reading",
-  "activeForm": "Extracting full text from all 241 papers",
-  "status": "in_progress",
-  "blocks": [],
-  "blockedBy": []
-}
