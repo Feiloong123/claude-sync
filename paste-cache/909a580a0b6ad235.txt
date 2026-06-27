@@ -1,0 +1,109 @@
+
+==========================================
+  Open http://localhost:8000
+  Press Ctrl+C to stop
+==========================================
+INFO:     Started server process [66312]
+INFO:     Waiting for application startup.
+[Scheduler] 已启动 - 数据同步每30分钟, 提醒检查每5分钟
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+Job "sync_watchlist_data (trigger: date[2026-06-27 13:02:26 CST], next run at: 2026-06-27 13:02:26 CST)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 172, in startup
+    server = await loop.create_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1584, in create_server
+    raise OSError(err.errno, msg) from None
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 678, in run_until_complete
+    self.run_forever()
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 645, in run_forever
+    self._run_once()
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1999, in _run_once
+    handle._run()
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 79, in serve
+    await self._serve(sockets)
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 94, in _serve
+    await self.startup(sockets=sockets)
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\uvicorn\server.py", line 182, in startup
+    sys.exit(1)
+SystemExit: 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\Desktop\基金追踪\backend\services\scheduler.py", line 21, in sync_watchlist_data
+    result = await db.execute(select(WatchItem))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 449, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\orm\session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2366, in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\dialects\sqlite\aiosqlite.py", line 164, in execute
+    self.await_(_cursor.execute(operation, parameters))
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiosqlite\cursor.py", line 40, in execute
+    await self._execute(self._cursor.execute, sql, parameters)
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiosqlite\cursor.py", line 32, in _execute
+    return await self._conn._execute(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\YYY\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiosqlite\core.py", line 160, in _execute
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
