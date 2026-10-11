@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "安装 anthropics docx skill 并读取参考规范",
+  "description": "npx skills add anthropics/skills@docx -g -y,安装后读取其 SKILL.md 了解 python-docx 最佳实践(OXML 着色、字体、表格等),供生成器参考",
+  "activeForm": "安装 docx skill 中",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "8",
+  "subject": "全量生成 10000 份(后台运行)",
+  "description": "用户确认测试效果后,后台跑全量,输出至 C:\\Users\\YYY\\Desktop\\resume_templates\\,完成全量 round-trip + 查重报告",
+  "activeForm": "全量生成中",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

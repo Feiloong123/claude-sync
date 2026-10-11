@@ -1,0 +1,9 @@
+{
+  "id": "9",
+  "subject": "下载 5~8 份参考简历并目检学习布局",
+  "description": "从 GitHub 开源仓库/免费模板站下载中英混合的简历样例到 resume-gen\\refs\\,docx 转 PDF→PNG、pdf 直接渲染,Read 目检归纳布局要点",
+  "activeForm": "下载并学习参考简历布局",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}
