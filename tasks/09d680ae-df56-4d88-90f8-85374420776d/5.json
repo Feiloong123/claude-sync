@@ -1,9 +1,0 @@
-{
-  "id": "5",
-  "subject": "编写 docx 底层助手 docx_helpers.py",
-  "description": "字体设置(ascii/hAnsi/eastAsia)、单元格着色 w:shd、边框 tblBorders/pBdr、段落底纹、技能条、分栏表格等 python-docx 底层封装",
-  "activeForm": "编写 docx 底层助手中",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}

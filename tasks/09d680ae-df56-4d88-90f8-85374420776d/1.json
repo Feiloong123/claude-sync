@@ -1,9 +1,0 @@
-{
-  "id": "1",
-  "subject": "生成 30 份测试批次并做双重质量检查",
-  "description": "每布局 3 份;round-trip 重开校验 + 哈希查重 + Word 转 PDF 视觉抽检,发现问题即修复",
-  "activeForm": "测试批次质检中",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}

@@ -1,9 +1,0 @@
-{
-  "id": "11",
-  "subject": "重跑 30 份批次 + QA + 导出样例给用户查看",
-  "description": "清理旧产物,重新生成 30 份测试批次,--qa 零错误零重复,转 PDF/PNG 目检,拷 6~8 份代表样本(docx+pdf)到 C:\\Users\\YYY\\Desktop\\resume_samples\\ 供用户确认",
-  "activeForm": "重跑测试批次并导出样例",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}

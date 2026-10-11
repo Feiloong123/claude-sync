@@ -1,9 +1,0 @@
-{
-  "id": "3",
-  "subject": "编写批量调度 generate.py",
-  "description": "参数组合采样(10 布局×10 主题×7 字体×3 密度×3 语言×栏目变异≥10000 唯一组合)、渲染循环、manifest.csv、断点续跑、错误日志",
-  "activeForm": "编写批量调度中",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}

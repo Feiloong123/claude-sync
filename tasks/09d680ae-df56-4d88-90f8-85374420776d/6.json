@@ -1,9 +1,0 @@
-{
-  "id": "6",
-  "subject": "编写假数据生成模块 fake_data.py",
-  "description": "中英文姓名池、10 个职业方向的公司/学校/专业/量化成就条目模板,按种子确定性生成逼真简历数据",
-  "activeForm": "编写假数据模块中",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}

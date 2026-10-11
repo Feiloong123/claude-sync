@@ -1,9 +1,0 @@
-{
-  "id": "2",
-  "subject": "编写 10 种布局渲染器 layouts.py",
-  "description": "经典单栏/左深色侧栏/右浅色侧栏/顶部横幅/双栏均衡/时间线/卡片头/学术风/极简黑白/分割头,含共享栏目渲染(经历/教育/技能条/证书等)",
-  "activeForm": "编写布局渲染器中",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}

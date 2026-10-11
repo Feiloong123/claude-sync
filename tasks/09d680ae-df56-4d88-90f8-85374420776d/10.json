@@ -1,9 +1,0 @@
-{
-  "id": "10",
-  "subject": "增强布局库 + 修复弹点字形与时间线列宽",
-  "description": "按学习结论在 layouts.py 新增 2~4 种布局变体并登记 LAYOUT_IDS/LAYOUT_STYLES/LAYOUT_SUPPORTS_PHOTO;修 _timeline_block date_w 3.0cm;style_run 加 latin 覆盖,bullet_para/sec_certificates 弹点用 CJK 字体",
-  "activeForm": "增强布局库并修复遗留问题",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}
